@@ -18,6 +18,9 @@
     font-size: 1.5rem;
   }
   
+  .card-body {
+    padding-bottom: 77px !important;
+  }
   .card-signin .card-body {
     padding: 2rem;
   }
@@ -30,12 +33,4 @@
     padding: 1rem;
     transition: all 0.2s;
   }
-  .btn-google {
-    color: white;
-    background-color: #ea4335;
-  }
   
-  .btn-facebook {
-    color: white;
-    background-color: #3b5998;
-  }
