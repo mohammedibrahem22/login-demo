@@ -19,9 +19,11 @@ import { TranslateModule } from '@ngx-translate/core';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatPseudoCheckboxModule } from '@angular/material/core';
 import {MatInputModule} from '@angular/material/input';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { ContactInformationComponent } from './contact-information/contact-information.component';
 
 @NgModule({
-  declarations: [LoginComponent, WelcomeComponent],
+  declarations: [LoginComponent, WelcomeComponent, SidebarComponent, ContactInformationComponent],
   imports: [
     CommonModule,
     LoginRoutingModule,
